@@ -23,6 +23,3 @@ Pod::Spec.new do |s|
   s.dependency "Aspects", "~> 1.4.1"
 
 end
-
-
-end
