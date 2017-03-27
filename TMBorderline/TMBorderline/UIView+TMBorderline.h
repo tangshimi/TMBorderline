@@ -18,8 +18,8 @@ typedef NS_OPTIONS(NSUInteger, TMBorderlineDirection) {
 
 @interface UIView (TMBorderline)
 
-- (void)tm_addBoardLine:(TMBorderlineDirection)dirction;
+- (void)tm_addBorderLine:(TMBorderlineDirection)dirction;
 
-- (void)tm_addBoardLine:(TMBorderlineDirection)dirction color:(UIColor *)color;
+- (void)tm_addBorderLine:(TMBorderlineDirection)dirction color:(UIColor *)color;
 
 @end

@@ -32,7 +32,7 @@
     //    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-100-[lineView]-100-|" options:0 metrics:nil views:view]];
     //    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-100-[lineView(200)]" options:0 metrics:nil views:view]];
     
-    [lineView tm_addBoardLine:TMBorderlineDirectionTop |  TMBorderlineDirectionBottom| TMBorderlineDirectionLeft|TMBorderlineDirectionRight color:[UIColor redColor]];
+    [lineView tm_addBorderLine:TMBorderlineDirectionTop |  TMBorderlineDirectionBottom| TMBorderlineDirectionLeft|TMBorderlineDirectionRight color:[UIColor redColor]];
 }
 
 - (void)didReceiveMemoryWarning {

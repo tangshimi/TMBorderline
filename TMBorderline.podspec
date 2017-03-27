@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TMBorderline"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "borderline"
   s.description  = <<-DESC
                     borderline for UIView
@@ -15,11 +15,10 @@ Pod::Spec.new do |s|
   s.author    = "tangshimi"
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
-  s.source       = { :git => "https://github.com/tangshimi/TMBorderline.git",:tag => "1.0" }
+  s.source       = { :git => "https://github.com/tangshimi/TMBorderline.git",:tag => "1.1" }
 
 
   s.source_files  = "TMBorderline/TMBorderline/*.{h,m}"
   s.requires_arc = true
-  s.dependency "Aspects", "~> 1.4.1"
 
 end
